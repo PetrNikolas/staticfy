@@ -22,8 +22,12 @@ const Layout = ({ children }) => (
 				<Helmet
 					title={data.site.siteMetadata.title}
 					meta={[
+						{ name: 'charset', content: 'utf-8' },
+						{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 						{ name: 'description', content: 'Sample' },
-						{ name: 'keywords', content: 'sample, something' },
+						{ name: 'author', content: 'Petr Nikolas' },
+						{ name: 'reply-to', content: 'hello@petrnikolas.com' },
+						{ name: 'url', content: 'https://staticfy.netlify.com/' },
 					]}
 				>
 					<html lang="en" />
