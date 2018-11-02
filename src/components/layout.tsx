@@ -31,6 +31,10 @@ const Layout = ({ children }) => (
 					]}
 				>
 					<html lang="en" />
+					<link
+						href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+						rel="stylesheet"
+					/>
 				</Helmet>
 				<Header siteTitle={data.site.siteMetadata.title} />
 				<div

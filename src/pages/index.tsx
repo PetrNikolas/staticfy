@@ -8,15 +8,20 @@ import Image from '../components/image'
 
 const IndexPage = () => (
 	<Layout>
-		<h1>Hi people</h1>
-		<p>Welcome to your new Staticfy site.</p>
-		<p>Now go build something great.</p>
-		<div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-			<Image />
-		</div>
-		<Button type="primary">
-			<Link to="/page-2/">Go to page 2</Link>
-		</Button>
+		<section className="hero is-fullheight">
+			<div className="hero-body">
+				<div className="container">
+					<h1 className="title">Hi people</h1>
+					<h2 className="subtitle">Welcome to your new Staticfy site.</h2>
+					<div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+						<Image />
+					</div>
+					<Button type="primary">
+						<Link to="/page-2/">Go to page 2</Link>
+					</Button>
+				</div>
+			</div>
+		</section>
 	</Layout>
 )
 
