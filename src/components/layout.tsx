@@ -31,8 +31,13 @@ const Layout = ({ children }) => (
 					]}
 				>
 					<html lang="en" />
+					<link href="https://unpkg.com/spectre.css/dist/spectre.min.css" rel="stylesheet" />
 					<link
-						href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+						href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css"
+						rel="stylesheet"
+					/>
+					<link
+						href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"
 						rel="stylesheet"
 					/>
 				</Helmet>
