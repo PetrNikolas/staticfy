@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Button } from 'antd'
-
 import Layout from '../components/layout'
 import Image from '../components/image'
 
@@ -15,9 +13,9 @@ const IndexPage = () => (
 				<div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
 					<Image />
 				</div>
-				<Button type="primary">
+				<button className="btn btn-secondary">
 					<Link to="/about/">Go to page 2</Link>
-				</Button>
+				</button>
 			</div>
 		</section>
 	</Layout>

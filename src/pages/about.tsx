@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import { Button } from 'antd'
-
 import Layout from '../components/layout'
 
 const SecondPage = () => (
@@ -11,9 +9,9 @@ const SecondPage = () => (
 			<div className="container">
 				<h1>Hi from the about page</h1>
 				<h2>Welcome to about page.</h2>
-				<Button type="primary">
+				<button className="btn btn-secondary">
 					<Link to="/">Go back to the homepage</Link>
-				</Button>
+				</button>
 			</div>
 		</section>
 	</Layout>
