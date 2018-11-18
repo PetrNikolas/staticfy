@@ -10,7 +10,9 @@ const SecondPage = () => (
 				<h1>Hi from the about page</h1>
 				<h2>Welcome to about page.</h2>
 				<button className="btn btn-secondary">
-					<Link to="/">Go back to the homepage</Link>
+					<Link to="/" style={{ backgroundImage: `none` }}>
+						Go back to the homepage
+					</Link>
 				</button>
 			</div>
 		</section>

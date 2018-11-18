@@ -14,7 +14,9 @@ const IndexPage = () => (
 					<Image />
 				</div>
 				<button className="btn btn-secondary">
-					<Link to="/about/">Go to page 2</Link>
+					<Link to="/about/" style={{ backgroundImage: `none` }}>
+						Go to about page
+					</Link>
 				</button>
 			</div>
 		</section>
