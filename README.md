@@ -23,6 +23,18 @@
 
 ## 🧐 What's inside?
 
+### Features
+- Gatsby
+- React
+- TypeScript
+- Sass, Spectre.css, PostCSS
+- TSLint
+- Prettier
+- Stylelint
+- Lint-staged, Husky, Git Hooks
+
+### Project structure
+
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
     .
