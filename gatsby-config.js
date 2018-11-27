@@ -76,29 +76,29 @@ module.exports = {
         }`
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
-      },
-    },
-    {
-    resolve: 'gatsby-plugin-sentry',
-      options: {
-        dsn: 'YOUR_SENTRY_DSN_URL',
-        config: {
-          environment: 'staging'
-        }
-      },
-    },
+    // {
+    //  resolve: `gatsby-plugin-google-analytics`,
+    //  options: {
+    //    trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+    //    head: false,
+    //    anonymize: true,
+    //    respectDNT: true,
+    //    exclude: ["/preview/**", "/do-not-track/me/too/"],
+    //    optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+    //    sampleRate: 5,
+    //    siteSpeedSampleRate: 10,
+    //    cookieDomain: "example.com",
+    //  },
+    // },
+    // {
+    // resolve: 'gatsby-plugin-sentry',
+    //  options: {
+    //    dsn: 'YOUR_SENTRY_DSN_URL',
+    //    config: {
+    //      environment: 'staging'
+    //    }
+    //  },
+    // },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
