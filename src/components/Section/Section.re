@@ -1,3 +1,5 @@
+[%bs.raw {|require('./Section.css')|}];
+
 let component = ReasonReact.statelessComponent("Section");
 
 let make = children => {

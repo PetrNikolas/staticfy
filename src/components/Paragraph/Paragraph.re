@@ -1,3 +1,5 @@
+[%bs.raw {|require('./Paragraph.css')|}];
+
 let component = ReasonReact.statelessComponent("Paragraph");
 
 let make = children => {

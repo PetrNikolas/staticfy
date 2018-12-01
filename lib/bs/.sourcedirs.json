@@ -1,1 +1,1 @@
-{ "dirs" : [ "src" , "src/pages" , "src/components" , "src/components/Button" , "src/components/Container" , "src/components/Paragraph" , "src/components/Section" , "src/styles" , "src/styles/base" , "src/styles/components" , "src/utils" , "src/images" ] , "generated" : [] }
+{ "dirs" : [ "src" , "src/pages" , "src/components" , "src/components/Button" , "src/components/Container" , "src/components/Paragraph" , "src/components/Section" , "src/components/Footer" , "src/styles" , "src/styles/base" , "src/utils" , "src/images" ] , "generated" : [] }

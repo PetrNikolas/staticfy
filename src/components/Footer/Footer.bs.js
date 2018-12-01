@@ -4,9 +4,9 @@
 var React = require("react");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 
-((require('./Paragraph.css')));
+((require('./Footer.css')));
 
-var component = ReasonReact.statelessComponent("Paragraph");
+var component = ReasonReact.statelessComponent("Footer");
 
 function make(children) {
   return /* record */[
@@ -20,7 +20,15 @@ function make(children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              return React.createElement("p", undefined, children);
+              return React.createElement("footer", {
+                          className: "footer"
+                        }, React.createElement("div", {
+                              className: "container"
+                            }, React.createElement("div", {
+                                  className: "columns"
+                                }, React.createElement("div", {
+                                      className: "column col-12 col-xs-12 text-center"
+                                    }, children))));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],

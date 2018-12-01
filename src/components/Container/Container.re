@@ -1,3 +1,5 @@
+[%bs.raw {|require('./Container.css')|}];
+
 let component = ReasonReact.statelessComponent("Container");
 
 let make = children => {

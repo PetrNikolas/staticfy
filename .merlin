@@ -19,4 +19,6 @@ S src/components/Paragraph
 B lib/bs/src/components/Paragraph
 S src/components/Section
 B lib/bs/src/components/Section
+S src/components/Footer
+B lib/bs/src/components/Footer
 ####BSB GENERATED: NO EDIT}

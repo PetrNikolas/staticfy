@@ -1,3 +1,5 @@
+[%bs.raw {|require('./Button.css')|}];
+
 let component = ReasonReact.statelessComponent("Button");
 
 let make = children => {

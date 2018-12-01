@@ -4,6 +4,8 @@
 var React = require("react");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 
+((require('./Button.css')));
+
 var component = ReasonReact.statelessComponent("Button");
 
 function make(children) {
@@ -38,4 +40,4 @@ exports.make = make;
 exports.$$default = $$default;
 exports.default = $$default;
 exports.__esModule = true;
-/* component Not a pure module */
+/*  Not a pure module */
