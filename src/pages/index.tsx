@@ -6,11 +6,12 @@ import Image from '../components/image'
 import Paragraph from '../components/Paragraph.re'
 import Button from '../components/Button.re'
 import Section from '../components/Section.re'
+import Container from '../components/Container.re'
 
 const IndexPage = () => (
 	<Layout>
 		<Section>
-			<div className="container">
+			<Container>
 				<h1>Hi people</h1>
 				<h2>Welcome to your new Staticfy site.</h2>
 
@@ -25,7 +26,7 @@ const IndexPage = () => (
 						</Link>
 					</Button>
 				</Paragraph>
-			</div>
+			</Container>
 		</Section>
 	</Layout>
 )

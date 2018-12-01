@@ -5,11 +5,12 @@ import Layout from '../components/layout'
 import Paragraph from '../components/Paragraph.re'
 import Button from '../components/Button.re'
 import Section from '../components/Section.re'
+import Container from '../components/Container.re'
 
 const AboutPage = () => (
 	<Layout>
 		<Section>
-			<div className="container">
+			<Container>
 				<h1>Hi from the about page</h1>
 				<h2>Welcome to about page.</h2>
 
@@ -20,7 +21,7 @@ const AboutPage = () => (
 						</Link>
 					</Button>
 				</Paragraph>
-			</div>
+			</Container>
 		</Section>
 	</Layout>
 )
