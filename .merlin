@@ -11,6 +11,12 @@ S /Users/petrnikolasprokop/Documents/work/staticfy/node_modules/reason-react/lib
 B /Users/petrnikolasprokop/Documents/work/staticfy/node_modules/reason-react/lib/ocaml
 S /Users/petrnikolasprokop/Documents/work/staticfy/node_modules/gatsby-link-reason/lib/ocaml
 B /Users/petrnikolasprokop/Documents/work/staticfy/node_modules/gatsby-link-reason/lib/ocaml
-S src/components
-B lib/bs/src/components
+S src/components/Button
+B lib/bs/src/components/Button
+S src/components/Container
+B lib/bs/src/components/Container
+S src/components/Paragraph
+B lib/bs/src/components/Paragraph
+S src/components/Section
+B lib/bs/src/components/Section
 ####BSB GENERATED: NO EDIT}

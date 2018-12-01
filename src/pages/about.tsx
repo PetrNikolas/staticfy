@@ -2,10 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Paragraph from '../components/Paragraph.re'
-import Button from '../components/Button.re'
-import Section from '../components/Section.re'
-import Container from '../components/Container.re'
+
+import Paragraph from '../components/Paragraph/Paragraph.re'
+import Button from '../components/Button/Button.re'
+import Section from '../components/Section/Section.re'
+import Container from '../components/Container/Container.re'
 
 const AboutPage = () => (
 	<Layout>
