@@ -1,0 +1,17 @@
+# ninja log v5
+0	46	1543684811	src/components/Paragraph.mlast	8536ef420dbb8f7d
+46	55	1543684811	src/components/Paragraph.mlast.d	b962119c4a135a8e
+1	22	1543684811	src/components/Paragraph.cmj	8a6200a55a3c1d43
+1	22	1543684811	/Users/petrnikolasprokop/Documents/work/staticfy/lib/js/src/components/Paragraph.bs.js	8a6200a55a3c1d43
+1	22	1543684811	src/components/Paragraph.cmi	8a6200a55a3c1d43
+0	47	1543684963	src/components/Paragraph.mlast	8536ef420dbb8f7d
+47	54	1543684963	src/components/Paragraph.mlast.d	b962119c4a135a8e
+1	22	1543684963	src/components/Paragraph.cmj	8a6200a55a3c1d43
+1	22	1543684963	/Users/petrnikolasprokop/Documents/work/staticfy/lib/js/src/components/Paragraph.bs.js	8a6200a55a3c1d43
+1	22	1543684963	src/components/Paragraph.cmi	8a6200a55a3c1d43
+0	6	1543685316	src/components/Paragraph.mlast.d	965356bd145e8d81
+0	13	1543685316	Staticfy.cmi	31059008d037a68a
+0	20	1543685316	src/components/Paragraph-Staticfy.cmj	97b27ce57cb96b2a
+0	20	1543685316	/Users/petrnikolasprokop/Documents/work/staticfy/src/components/Paragraph.bs.js	97b27ce57cb96b2a
+0	20	1543685316	src/components/Paragraph-Staticfy.cmi	97b27ce57cb96b2a
+0	17	1543685317	Staticfy.cmi	31059008d037a68a

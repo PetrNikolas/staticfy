@@ -115,6 +115,12 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     'gatsby-plugin-offline',
     `gatsby-plugin-typescript`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-reason',
+      options: {
+        derivePathFromComponentName: true,
+      },
+    }
   ],
 }
