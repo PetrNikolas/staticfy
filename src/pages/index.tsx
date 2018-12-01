@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import Paragraph from '../components/Paragraph.re'
+import Button from '../components/Button.re'
 
 const IndexPage = () => (
 	<Layout>
@@ -17,11 +18,11 @@ const IndexPage = () => (
 				</div>
 
 				<Paragraph>
-					<button className="btn btn-secondary">
+					<Button>
 						<Link to="/about/" style={{ backgroundImage: `none` }}>
 							Go to about page
 						</Link>
-					</button>
+					</Button>
 				</Paragraph>
 			</div>
 		</section>

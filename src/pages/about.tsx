@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Paragraph from '../components/Paragraph.re'
+import Button from '../components/Button.re'
 
 const AboutPage = () => (
 	<Layout>
@@ -12,11 +13,11 @@ const AboutPage = () => (
 				<h2>Welcome to about page.</h2>
 
 				<Paragraph>
-					<button className="btn btn-secondary">
+					<Button>
 						<Link to="/" style={{ backgroundImage: `none` }}>
 							Go back to the homepage
 						</Link>
-					</button>
+					</Button>
 				</Paragraph>
 			</div>
 		</section>
