@@ -25,7 +25,7 @@
 
 ### Features
 - Gatsby
-- React
+- React/ReasonML
 - TypeScript
 - Sass, Spectre.css, PostCSS
 - TSLint
