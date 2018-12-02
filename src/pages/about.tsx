@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../layouts/layout'
 
 import Paragraph from '../components/Paragraph/Paragraph.re'
 import Button from '../components/Button/Button.re'

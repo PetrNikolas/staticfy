@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from '../components/layout'
+import Layout from '../layouts/layout'
 
 import Paragraph from '../components/Paragraph/Paragraph.re'
 
