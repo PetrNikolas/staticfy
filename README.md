@@ -1,25 +1,23 @@
-<h1 align="center">
-  Staticfy
-</h1>
+# Staticfy
 
 ## 🚀 Quick start
 
-1.  **Start developing.**
+1. **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+  Navigate into your new site’s directory and start it up.
 
-    ```sh
-    cd my-site/
-    gatsby develop
-    ```
+  ```sh
+  cd my-site/
+  gatsby develop
+  ```
 
-1.  **Open the source code and start editing!**
+2. **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+  Your site is now running at `http://localhost:8000`!
 
-    *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
+  *Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
 
-    Open the `my-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+  Open the `my-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 
