@@ -43,6 +43,7 @@ module.exports = {
       options: {
         name: 'staticfy',
         short_name: 'staticfy',
+        description: 'Basic starter kit for static sites based on Gatsby.js',
         start_url: '/',
         background_color: '#24EAA9',
         theme_color: '#24EAA9',
