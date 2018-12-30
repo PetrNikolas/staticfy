@@ -11,6 +11,7 @@ yarn-error.log
 
 # ReasonML
 .merlin
+lib/*
 /lib/*
 !/lib/js/*
 /bundledOutputs/

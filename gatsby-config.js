@@ -1,7 +1,10 @@
+const siteUrl = 'https://example.com/';
+
 module.exports = {
   siteMetadata: {
+    siteUrl,
     title: 'Staticfy',
-    siteUrl: `https://www.example.com`,
+    description: 'Basic starter kit for static sites based on Gatsby.js',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -38,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'staticfy',
+        short_name: 'staticfy',
         start_url: '/',
         background_color: '#24EAA9',
         theme_color: '#24EAA9',
@@ -53,28 +56,14 @@ module.exports = {
         siteUrl: `https://www.example.com`,
       },
     },
+    'gatsby-plugin-sitemap',
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
-        output: `/some-other-sitemap.xml`,
-        exclude: [],
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-        }`
-      }
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: '*', disallow: '' }],
+      },
     },
     // {
     //  resolve: `gatsby-plugin-google-analytics`,
