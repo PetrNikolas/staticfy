@@ -1,5 +1,7 @@
 # Staticfy
 
+Basic starter kit for static sites based on Gatsby.js.
+
 ## 🚀 Quick start
 
 **Start developing.**
