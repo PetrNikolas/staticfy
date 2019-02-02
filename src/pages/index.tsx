@@ -21,6 +21,11 @@ const IndexPage = () => (
 							Go to about page
 						</Link>
 					</Button>
+					<Button>
+						<Link to="/404/" style={{ backgroundImage: `none` }}>
+							Go to 404 page
+						</Link>
+					</Button>
 				</Paragraph>
 			</Container>
 		</Section>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from '../components/header'
+import Header from './header'
 
 import Footer from '../components/Footer/Footer.re'
 import Paragraph from '../components/Paragraph/Paragraph.re'
