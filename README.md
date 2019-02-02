@@ -2,7 +2,7 @@
 
 ## 🚀 Quick start
 
-1. **Start developing.**
+**Start developing.**
 
   Navigate into your new site’s directory and start it up.
 
@@ -11,7 +11,7 @@
   gatsby develop
   ```
 
-2. **Open the source code and start editing!**
+**Open the source code and start editing!**
 
   Your site is now running at `http://localhost:8000`!
 
@@ -19,9 +19,10 @@
 
   Open the `my-site` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
+## 🧐 What's inside
 
 ### Features
+
 - Gatsby
 - React/ReasonML
 - TypeScript
@@ -50,33 +51,34 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── README.md
     └── yarn.lock
 
-  1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  
+  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  
 
-  2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-  3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-  4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-  5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-  6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-  7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-  8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-  9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-  10.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-  11.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-  12.  **`README.md`**: A text file containing useful reference information about your project.
+  **`README.md`**: A text file containing useful reference information about your project.
 
-  13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
+  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
 
 ## ReasonML
+
 ### Usage
 
 Check the docs for [gatsby-plugin-reason](https://github.com/jtberglund/gatsby-plugin-reason) for more details on configuration options.
@@ -87,8 +89,9 @@ Check the docs for [gatsby-plugin-reason](https://github.com/jtberglund/gatsby-p
 
 I prefer using this option for two reasons:
 
-1.  ReasonML/ocaml has fairly strict rules for files names since file names automatically map to module names, meaning file names for page components such as `about-me.re` or `404.re` are not allowing.
-2.  I like to uppercase my component names and I don't like having two naming conventions going on at once (e.g. having `src/components/Header.re` alongside `src/pages/my_page.re`).
+ReasonML/ocaml has fairly strict rules for files names since file names automatically map to module names, meaning file names for page components such as `about-me.re` or `404.re` are not allowing.
+
+I like to uppercase my component names and I don't like having two naming conventions going on at once (e.g. having `src/components/Header.re` alongside `src/pages/my_page.re`).
 
 This allows you to create a page component called `AboutMe.re` and map it to the route `/about-me` by setting the name of your component to `"about-me"` as shown below:
 
@@ -100,7 +103,7 @@ let component = ReasonReact.statelessComponent("about-me");
 
 If there are issues compiling your ReasonML code and you're sure its not a syntax error, often re-compiling will fix the error
 
-```
+```bash
 bsb -clean-world
 bsb -make-world
 ```
