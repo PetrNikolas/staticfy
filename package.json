@@ -3,10 +3,10 @@
   "version": "1.0.5",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "yarn lint && gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "lint:prettier": "prettier --write 'src/**/*.{ts,tsx,scss,md,re}'",
+    "lint:prettier": "prettier --write 'src/**/*.{ts,tsx,scss,md}'",
     "lint:stylelint": "stylelint --fix 'src/**/*.scss'",
     "lint:tslint": "tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json",
     "lint": "yarn lint:prettier && yarn lint:tslint && yarn lint:stylelint",
