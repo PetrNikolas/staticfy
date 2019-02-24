@@ -5,13 +5,14 @@
   "keywords": [
     "gatsby",
     "react",
-    "reasonml"
+    "reasonml",
+    "Gitlab CI"
   ],
   "main": "n/a",
   "scripts": {
     "build": "yarn lint && gatsby build",
     "develop": "gatsby develop",
-    "start": "npm run develop",
+    "start": "yarn develop",
     "lint:prettier": "prettier --write 'src/**/*.{ts,tsx,scss,md}'",
     "lint:stylelint": "stylelint --fix 'src/**/*.scss'",
     "lint:tslint": "tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json",
