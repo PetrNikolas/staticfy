@@ -1,0 +1,37 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+variables:
+  BUCKET_NAME: bucket-name
+
+cache:
+  paths:
+    - node_modules/
+
+buildGatsby:
+  stage: build
+  script:
+    - npm install
+    - ./node_modules/.bin/gatsby build
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
+
+deploys3:
+  image: "python:3.6.6"  # We use python because there is a well-working AWS Sdk
+  stage: deploy
+  dependencies:
+    - buildGatsby
+  before_script:
+    - pip install awscli # Install the SDK
+  script:
+    - aws s3 cp public s3://${BUCKET_NAME} --recursive
+  environment:
+    name: 's3-deploy'
+    url: http://${BUCKET_NAME}.s3.eu-central-1.amazonaws.com  # This is the url of the bucket we saved before
+# source: https://www.alvareznavarro.es/blog/2018/6/how-to-deploy-a-gatsby-website-to-amazon-s3-using-gitlab-ci/

@@ -109,3 +109,7 @@ If there are issues compiling your ReasonML code and you're sure its not a synta
 bsb -clean-world
 bsb -make-world
 ```
+
+## Deployment
+
+For deployment you can use Gitlab CI. In project are two files - sample `.gitlab-ci.yml` and for S3 deploy `.gitlab-ci-s3.yml`.

@@ -1,7 +1,13 @@
 {
   "name": "staticfy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "react",
+    "reasonml"
+  ],
+  "main": "n/a",
   "scripts": {
     "build": "yarn lint && gatsby build",
     "develop": "gatsby develop",
