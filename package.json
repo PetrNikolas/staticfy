@@ -16,6 +16,7 @@
     "lint:stylelint": "stylelint --fix 'src/**/*.scss'",
     "lint:tslint": "tslint --fix 'src/**/*.{ts,tsx}' -p tsconfig.json",
     "lint": "yarn lint:prettier && yarn lint:tslint && yarn lint:stylelint",
+    "type-check": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
