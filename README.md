@@ -26,7 +26,6 @@ Basic starter kit for static sites based on Gatsby.js.
 ### Features
 
 - Gatsby
-- React/ReasonML
 - TypeScript
 - Sass, Spectre.css, PostCSS
 - TSLint
@@ -78,37 +77,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
   **`README.md`**: A text file containing useful reference information about your project.
 
   **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
-
-## ReasonML
-
-### Usage
-
-Check the docs for [gatsby-plugin-reason](https://github.com/jtberglund/gatsby-plugin-reason) for more details on configuration options.
-
-#### Pages
-
-`gatsby-plugin-reason` offers an option to derive page routes from the page component's name (instead of the file name like gatsby usually uses), which is in use in this starter (see the plugin configuration in [gatsby-config.js](https://github.com/jtberglund/gatsby-starter-reason/blob/master/gatsby-config.js)).
-
-I prefer using this option for two reasons:
-
-ReasonML/ocaml has fairly strict rules for files names since file names automatically map to module names, meaning file names for page components such as `about-me.re` or `404.re` are not allowing.
-
-I like to uppercase my component names and I don't like having two naming conventions going on at once (e.g. having `src/components/Header.re` alongside `src/pages/my_page.re`).
-
-This allows you to create a page component called `AboutMe.re` and map it to the route `/about-me` by setting the name of your component to `"about-me"` as shown below:
-
-```ocaml
-let component = ReasonReact.statelessComponent("about-me");
-```
-
-### Troubleshooting
-
-If there are issues compiling your ReasonML code and you're sure its not a syntax error, often re-compiling will fix the error
-
-```bash
-bsb -clean-world
-bsb -make-world
-```
 
 ## Deployment
 

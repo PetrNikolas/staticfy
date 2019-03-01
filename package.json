@@ -1,11 +1,10 @@
 {
   "name": "staticfy",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "keywords": [
     "gatsby",
     "react",
-    "reasonml",
     "Gitlab CI"
   ],
   "main": "n/a",
@@ -24,7 +23,6 @@
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
     "gatsby-link": "^2.0.7",
-    "gatsby-link-reason": "^2.0.0",
     "gatsby-plugin-canonical-urls": "^2.0.7",
     "gatsby-plugin-google-analytics": "^2.0.7",
     "gatsby-plugin-manifest": "^2.0.5",
@@ -32,7 +30,6 @@
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-postcss": "^2.0.1",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-reason": "^2.0.0",
     "gatsby-plugin-robots-txt": "^1.3.0",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-sentry": "^0.1.0",
@@ -65,7 +62,6 @@
     "postcss-preset-env": "^6.4.0",
     "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.14.2",
-    "prettier-plugin-reasonml": "^0.1.0",
     "stylelint": "^9.7.1",
     "stylelint-config-css-modules": "^1.3.0",
     "stylelint-config-prettier": "^4.0.0",

@@ -8,11 +8,3 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
-
-# ReasonML
-.merlin
-lib/*
-/lib/*
-!/lib/js/*
-/bundledOutputs/
-.bsb.lock
