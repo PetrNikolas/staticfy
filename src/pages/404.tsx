@@ -1,8 +1,7 @@
 import React from 'react'
 
 import Layout from '../layouts/layout'
-
-import Paragraph from '../components/Paragraph/Paragraph.re'
+import Paragraph from '../components/paragraph/paragraph'
 
 const NotFoundPage = () => (
 	<Layout>

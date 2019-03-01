@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../layouts/layout'
-
-import Paragraph from '../components/Paragraph/Paragraph.re'
-import Button from '../components/Button/Button.re'
-import Section from '../components/Section/Section.re'
-import Container from '../components/Container/Container.re'
+import Section from '../components/section/section'
+import Paragraph from '../components/paragraph/paragraph'
+import Button from '../components/button/button'
+import Container from '../components/container/container'
 
 const IndexPage = () => (
 	<Layout>
